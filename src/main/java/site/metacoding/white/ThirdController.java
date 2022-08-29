@@ -13,7 +13,7 @@ import site.metacoding.white.domain.Third;
 public class ThirdController {
 	
 	@PostMapping("/third")
-	public String postData(Third third) {
+	public String postData(Third third) { 
 		return "id : "+third.getId()+", title : "+third.getTitle()+", content : "+third.getContent();
 	}
 	

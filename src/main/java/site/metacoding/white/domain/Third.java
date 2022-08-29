@@ -24,7 +24,7 @@ public class Third {
 	public String getTitle() {
 		return title;
 	}
-	public void setTitle(String title) {
+	public void setTitle (String title) {
 		System.out.println("setTitle 실행됨");
 		this.title = title;
 	}

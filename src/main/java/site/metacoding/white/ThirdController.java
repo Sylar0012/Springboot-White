@@ -15,7 +15,7 @@ public class ThirdController {
 	@PostMapping("/third")
 	public String postData(Third third) {
 		return "id : "+third.getId()+", title : "+third.getTitle()+", content : "+third.getContent();
-	}
+	}	
 	
 	//UPDATE third SET title=?,content=? WHERE id = ?
 	@PutMapping("/third/{id}")
